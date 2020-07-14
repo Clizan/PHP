@@ -16,14 +16,15 @@
 		<script type="text/javascript"> <!--TAG Java Script para redirecionamento de Tela --> 
 			function Add()
 			{
-				location.href=" cadastro.html" /*Redirecionamento para a página solicitada pelo button*/
+				location.href=" cadastro.php" /*Redirecionamento para a página solicitada pelo button*/
 			}				
 	
+            /*
 			function List()
 			{
-				location.href=" inicio.html" /*Redirecionamento para a página solicitada pelo button*/
+				location.href=" inicio.html" /*Redirecionamento para a página solicitada pelo button*
 			}
-
+            */
 			
 		</script>		
     </head>
