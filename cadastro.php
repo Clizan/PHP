@@ -5,30 +5,12 @@
 		<meta charset="utf-8"><!--Tag Usada para aceitar acentos -->
 		<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Tag de redimensionameto -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> <!--Estilos CSS -->
+        <link rel="stylesheet" href="./estilos/estilo_customizado.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--Bibliotecas Ajax -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script><!--Bibliotecas Ajax -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script><!--Bibliotecas Ajax -->
 		
-		<style><!--Tag de estilos na própria folha-->
-		
-			body {font-family: Arial, Helvetica, sans-serif;}
-			form {border: 3px solid #f1f1f1;}
 
-			input[type=text], input[type=password] {
-			  width: 100%;
-			  padding: 12px 20px;
-			  margin: 8px 0;
-			  display: inline-block;
-			  border: 1px solid #ccc;
-			  box-sizing: border-box;
-			}
-			
-			
-			.button{
-				margin-top: 02px;
-			}
-			
-		</style>
 		
 		
 		<script type="text/javascript"> <!--TAG Java Script para redirecionamento de Tela --> 
