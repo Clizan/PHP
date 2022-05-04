@@ -1,0 +1,21 @@
+CREATE SCHEMA IF NOT EXISTS integrado;
+
+CREATE TABLE IF NOT EXISTS integrado.chamado(
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `numeroChamado` int(11) NOT NULL,
+  `numeroRal` int(11) NOT NULL,
+  `setor` varchar(30) DEFAULT NULL,
+  `dtAbertura` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `informacao` longtext DEFAULT NULL,
+  `update_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE IF NOT EXISTS historico(
+ id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+ numeroChamado INT NOT NULL, 
+ dataRegistro TIMESTAMP,
+ historico LONGTEXT
+)
+
+INSERT INTO integrado.chamado(numeroChamado, numeroRal, setor, dtAbertura, informacao) VALUES (1, 1, 'GMUD', '2022-05-04 09:26:12', 'Manobra realizada na madrugada.');
